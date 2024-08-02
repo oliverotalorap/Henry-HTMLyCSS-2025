@@ -1,0 +1,14 @@
+body { background-color: red;
+}
+h2 { background-color: rgb(55, 177, 114);
+}
+.titulos { font-size: 40px;
+}
+#principal {
+font-size: 60px;;
+}
+
+/* .miTexto { 
+    font-size: 80px;
+    color: green;
+} */

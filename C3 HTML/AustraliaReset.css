@@ -1,0 +1,177 @@
+/* reset.css */
+
+/* Elimina todos los márgenes, padding y bordes predeterminados */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* Define el estilo base para los elementos HTML5 */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+/* Resetea la lista de elementos no ordenados y ordenados */
+ol, ul {
+    list-style: none;
+}
+
+/* Resetea las citas y blockquotes */
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+/* Resetea las tablas */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* Asegura que los elementos embebidos y multimedia se comporten de manera uniforme */
+embed, object, video {
+    display: block;
+}
+
+/* Resetea las imágenes para asegurarse de que no se superen */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Resetea los formularios */
+button, input, select, textarea {
+    font-family: inherit;
+    font-size: 100%;
+    margin: 0;
+}
+
+/* Asegura que los botones no tengan estilo por defecto */
+button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+/* Asegura que los enlaces no tengan subrayado y usen el color del texto */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Resetea los estilos de las figuras */
+figure {
+    margin: 0;
+}
+
+/* Resetea los elementos HTML5 de salida */
+output {
+    display: inline-block;
+}
+
+/* Resetea el cursor de los controles deshabilitados */
+[disabled] {
+    cursor: default;
+}
+
+/* Resetea los estilos de los elementos de marcado */
+mark {
+    background: none;
+    color: inherit;
+}
+
+/* -ESPACIO PARA MI CODIGO- */
+ 
+ #titulos {
+    border: 4px solid black;
+    /* vienpor width: 75vw; es = al 75% pantalla*/
+    width: 60vw;
+    margin: auto;
+    padding: 1em; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+#enlaces-header {
+    border: 3px solid black;
+    border-radius: 20px;
+    padding: 6px 12px 12px 12px;
+    background-color: rgb(158, 124, 236);
+    padding: 1em;
+    width: 99vw; 
+    font-size: 30px;
+    color:rgb(224, 236, 222)
+    
+    /*  
+    flex-direction: row;
+    display: flex;
+    margin: auto;
+    border: 2px solid black;
+    margin-top: 2em;
+    
+    
+    */
+}
+
+
+.cards{
+    border: 2px solid black;
+    width: fit-content;
+    padding: 6px 12px 12px 12px;
+    border-radius: 10%;
+    transition: 3s;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    align-items: center; 
+}
+
+/*.cards:hover =seudoselector */
+
+#cards-container-1 {
+    background-color: aqua;
+    width: 99vw;
+    margin: auto;
+    margin-top: 2em;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 2em;
+    display: flex;
+    flex-direction: row;
+    /* 
+    flex-direction: column;
+   justify-content: space-around; 
+   justify-content: and; 
+   justify-content: space-around; 
+   justify-content: space-between; 
+   
+   */
+   justify-content: space-evenly; 
+
+};
+   /* -ESPACIO PARA MI CODIGO- */
+

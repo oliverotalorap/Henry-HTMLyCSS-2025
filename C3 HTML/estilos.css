@@ -4,16 +4,25 @@ h2 { background-color: rgb(55, 177, 114);
 }
 
 #principal {
-font-size: 4.5em;
+font-size: 3em;
 color:rgb(51, 51, 112)
 }
+
  #titulos {
-    border: 2px solid black;
+    border: 4px solid black;
     /* vienpor width: 75vw; es = al 75% pantalla*/
     width: 60vw;
     margin: auto;
-    padding: 2em;
- }
+    padding: 1em; 
+    display: flex;
+}
+
+.opcion-t {
+    border: 2px solid rgb(41, 217, 67);
+    border-radius: 20%;
+}
+    /* 
+     */
 /* .title es una clase */
 .title {font-size: 3em; 
     color:rgb(190, 62, 62)
@@ -24,22 +33,25 @@ color:rgb(51, 51, 112)
 .logo{
     width: 300px;
 }
-.cards{
-    border: 2px solid black;
-    width: fit-content;
-    padding: 10px 10px 10px 10px;
-    border-radius: 10%;
-    transition: 1s;
-}
-/*.cards:hover =seudoselector */
+
 .cards:hover{ 
     background-color: darkgoldenrod;
+    transition: 1s;
     }
+#enlace-1{
+    font-size: 35px;
+    color:rgb(68, 227, 50)
+    /* 
+    font-size: 3em;
+    padding: 2em;
+    */
+};
+
     /* 
     padding: 1em 1em 1em 1em;
     padding: 4px 1em 4px 1em;
      */
-}
+
 
 
 /* id="principal" */

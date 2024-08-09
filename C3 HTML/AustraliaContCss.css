@@ -1,0 +1,41 @@
+a {
+    padding: 10px;
+}
+  
+a:hover {
+background: red;
+color: white;
+text-decoration: none;
+}
+
+#enlace-link {
+    border: 3px solid black;
+    /* vienpor width: 75vw; es = al 75% pantalla*/
+    width: 60vw;
+    margin: auto;
+    padding: 1em; 
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+
+    background-color: aqua;
+    width: 60vw;
+    margin-top: 1em;
+    border: 2px solid rgb(18, 157, 35);
+    border-radius: 10px;
+    padding: 1em;
+    display: flex;
+    padding: 6px 12px 12px 12px;
+    transition: 3s;
+    align-items: center; 
+}  /*     
+
+gap: 2em;
+flex-direction: column;
+display: flex;
+border-radius: 10%;
+width: fit-content;
+flex-direction: row;
+margin: auto;
+     */

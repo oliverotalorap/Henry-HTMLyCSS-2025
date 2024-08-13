@@ -8,14 +8,14 @@ font-size: 3em;
 color:rgb(51, 51, 112)
 }
 
+/* vienpor width: 75vw; es = al 75% pantalla*/
  #titulos {
-    border: 4px solid black;
-    /* vienpor width: 75vw; es = al 75% pantalla*/
-    width: 60vw;
-    margin: auto;
-    padding: 1em; 
-    display: flex;
-}
+     border: 4px solid black;
+     width: 60vw;
+     margin: auto;
+     padding: 1em; 
+     display: flex; 
+ }  /* id=titulos anulado por el reset. */
 
 .opcion-t {
     border: 2px solid rgb(41, 217, 67);
@@ -49,10 +49,7 @@ color:rgb(51, 51, 112)
 
     /* 
     padding: 1em 1em 1em 1em;
-    padding: 4px 1em 4px 1em;
      */
-
-
 
 /* id="principal" */
 /* .miTexto { 

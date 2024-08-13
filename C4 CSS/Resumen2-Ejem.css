@@ -1,7 +1,125 @@
-body {
-    font-family: 'Arial', sans-serif;
-    background-color: #33c346;
-    color: black;
-    margin: 20px;
+
+/* "h2 o a, p, etc" da estilo al reglon de la etiqueta. */
+h2 { background-color: rgb(55, 177, 114);
+}
+.title-t{
+  justify-content: center;
+  /* 
+  align-items: center; 
+  align-items: start; 
+  align-items: center;
+  
+  justify-content: space-around;
+  justify-content: flex-around;
+  justify-content: flex-between;
+  justify-content: flex-end;
+  align-items: end; 
+  
+  gap: 1em;
+  flex-direction: column; 
+  
+  display: flex;
+  width: fit-content;
+    */
+}
+
+#enlaces-header {
+  border: 4px solid rgb(35, 216, 35);
+  border-radius: 20px;
+  padding: 6px 12px 12px 12px;
+  background-color: rgb(158, 124, 236);
+  padding: 1em;
+  width: 80vw; 
+  font-size: 20px;
+  color:rgb(105, 230, 136)
+  /*  
+  flex-direction: row;
+  margin-top: 2em;
+  margin: auto;
+  display: flex;
+  */
+}
+
+
+/* header and main se anulan el color */
+header {  
+  background-color: rgb(221, 24, 73);
+  border: 5px solid #0c0202;
+  border-radius: 4%;
+  padding: 5px 10px 10px 10px;
+}; 
+.fondo-head{
+  justify-content: center;
+}; /*  
+width: fit-content;
+
+align-items: center;
+flex-direction: column;
+*/
+/* -main- no funciono REPASAR */
+/* class="logo" inifica tamaño fotos */
+
+main{
+  font-family: 'Arial', sans-serif;
+  background-color: #33c346;
+  color: black;
+  margin: 20px;
+}
+  
+  .logo{ width: 200px; }
+  .cards:hover{ 
+    background-color: darkgoldenrod;
+    transition: 2s; }
+
+  /*.carts{border, bordes, centrar
+  relleno, 
+  */
+  .cards{
+      border: 2px solid black;
+    border-radius: 5%;
+    padding: 1px 10px 10px 10px;
+    /* 
+    justify-content: space-around;
+    justify-content: flex-around;
+    justify-content: flex-between;
+    justify-content: center;
+    justify-content: flex-end;
+    align-items: start; 
+    align-items: center; 
+    align-items: end; 
+    
+    gap: 1em;
+    display: flex;
+    width: fit-content;
+    flex-direction: column; 
+    */
   }
+/* color,%, centrar   */
+  /* # es para los id="" */
+  #container1-fotos {
+    background-color: aqua;
+    width: 90vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-around; 
+    
+    /*
+    padding: 2em;
+    border: 2px solid rgb(210, 34, 49);
+    margin-top: 2em;
+    border-radius: 10px;
+    width: 90%;
+    
+    
+    justify-items: center
+    justify-content: space-evenly; 
+    justify-content: space-between; 
+    justify-content: and; 
+    flex-direction: row;
+    flex-direction: column;
+    */
+  };
+   
+  /* ".""title eje""pinto" es para */
+
 
